@@ -57,8 +57,6 @@ You can deploy with:
 ```bash
 npm run deploy
 ```
-Live site will be available at:
-https://sakina744.github.io/IELTS-Institute
 
 ## Preview
 Here’s a preview of the homepage:
