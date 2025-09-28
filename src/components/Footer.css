@@ -1,0 +1,77 @@
+.site-footer {
+  background: #1e293b;
+  color: #f1f5f9; 
+  padding: 3rem 1rem 1rem;
+  font-size: 0.95rem;
+}
+
+.footer-inner {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f9fafb;
+  margin-bottom: 0.75rem;
+}
+
+.brand-sub {
+  color: #38bdf8;
+}
+
+.lead {
+  color: #cbd5e1;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+h4 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  color: #f9fafb;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  color: #cbd5e1;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #38bdf8;
+}
+.icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+  color: #38bdf8; 
+  vertical-align: middle;
+}
+
+.copyright {
+  border-top: 1px solid #334155;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+@media (min-width: 768px) {
+  .footer-inner { 
+    grid-template-columns:1fr 1fr 1fr; 
+}
+}
